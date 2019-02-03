@@ -1,0 +1,108 @@
+2019-02-02 12:31:58,204 INFO org.springframework.boot.StartupInfoLogger [main] Starting LoginApplication on LAPTOP-6GQLSS8R with PID 9008 (E:\jaichu\Jaisudha\java1.8\Eclipseworkspace\LoginApplication\target\classes started by AnuRamani in E:\jaichu\Jaisudha\java1.8\Eclipseworkspace\LoginApplication)
+2019-02-02 12:31:58,220 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to default profiles: default
+2019-02-02 12:32:02,310 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [main] Tomcat initialized with port(s): 8091 (http)
+2019-02-02 12:32:02,354 INFO org.apache.juli.logging.DirectJDKLog [main] Initializing ProtocolHandler ["http-nio-8091"]
+2019-02-02 12:32:02,416 INFO org.apache.juli.logging.DirectJDKLog [main] Starting service [Tomcat]
+2019-02-02 12:32:02,416 INFO org.apache.juli.logging.DirectJDKLog [main] Starting Servlet engine: [Apache Tomcat/9.0.14]
+2019-02-02 12:32:02,448 INFO org.apache.juli.logging.DirectJDKLog [main] The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [C:\Program Files\Java\jre1.8.0_181\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:/Program Files/Java/jre1.8.0_181/bin/server;C:/Program Files/Java/jre1.8.0_181/bin;C:/Program Files/Java/jre1.8.0_181/lib/amd64;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Program Files\Broadcom\Broadcom 802.11 Network Adapter;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;c:\Program Files (x86)\ATI Technologies\ATI.ACE\Core-Static;C:\Program Files (x86)\Skype\Phone\;JAVA_HOME;JRE_HOME;C:\WINDOWS\System32\OpenSSH\;E:\jaichu\Jaisudha\SOftware\Git\cmd;C:\Users\AnuRamani\AppData\Local\Microsoft\WindowsApps;;E:\Software\eclipse-jee-2018-09-win32-x86_64\eclipse;;.]
+2019-02-02 12:32:02,745 INFO org.apache.juli.logging.DirectJDKLog [main] Initializing Spring embedded WebApplicationContext
+2019-02-02 12:32:02,745 INFO org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext [main] Root WebApplicationContext: initialization completed in 4259 ms
+2019-02-02 12:32:03,076 WARN org.springframework.context.support.AbstractApplicationContext [main] Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'requestMappingHandlerAdapter' defined in class path resource [org/springframework/boot/autoconfigure/web/servlet/WebMvcAutoConfiguration$EnableWebMvcConfiguration.class]: Bean instantiation via factory method failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter]: Factory method 'requestMappingHandlerAdapter' threw exception; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'mvcContentNegotiationManager' defined in class path resource [org/springframework/boot/autoconfigure/web/servlet/WebMvcAutoConfiguration$EnableWebMvcConfiguration.class]: Bean instantiation via factory method failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [org.springframework.web.accept.ContentNegotiationManager]: Factory method 'mvcContentNegotiationManager' threw exception; nested exception is java.lang.NoSuchMethodError: org.springframework.web.accept.ContentNegotiationManagerFactoryBean.build()Lorg/springframework/web/accept/ContentNegotiationManager;
+2019-02-02 12:32:03,076 INFO org.apache.juli.logging.DirectJDKLog [main] Stopping service [Tomcat]
+2019-02-02 12:32:03,123 INFO org.springframework.boot.autoconfigure.logging.ConditionEvaluationReportLoggingListener [main] 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2019-02-02 12:32:03,170 ERROR org.springframework.boot.diagnostics.LoggingFailureAnalysisReporter [main] 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+An attempt was made to call the method org.springframework.web.accept.ContentNegotiationManagerFactoryBean.build()Lorg/springframework/web/accept/ContentNegotiationManager; but it does not exist. Its class, org.springframework.web.accept.ContentNegotiationManagerFactoryBean, is available from the following locations:
+
+    jar:file:/C:/Users/AnuRamani/.m2/repository/org/springframework/spring-web/4.3.14.RELEASE/spring-web-4.3.14.RELEASE.jar!/org/springframework/web/accept/ContentNegotiationManagerFactoryBean.class
+    jar:file:/C:/Users/AnuRamani/.m2/repository/org/springframework/spring-web/5.1.4.RELEASE/spring-web-5.1.4.RELEASE.jar!/org/springframework/web/accept/ContentNegotiationManagerFactoryBean.class
+
+It was loaded from the following location:
+
+    file:/C:/Users/AnuRamani/.m2/repository/org/springframework/spring-web/4.3.14.RELEASE/spring-web-4.3.14.RELEASE.jar
+
+
+Action:
+
+Correct the classpath of your application so that it contains a single, compatible version of org.springframework.web.accept.ContentNegotiationManagerFactoryBean
+
+2019-02-02 12:33:52,577 INFO org.springframework.boot.StartupInfoLogger [main] Starting LoginApplication on LAPTOP-6GQLSS8R with PID 3252 (E:\jaichu\Jaisudha\java1.8\Eclipseworkspace\LoginApplication\target\classes started by AnuRamani in E:\jaichu\Jaisudha\java1.8\Eclipseworkspace\LoginApplication)
+2019-02-02 12:33:52,593 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to default profiles: default
+2019-02-02 12:33:54,396 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [main] Tomcat initialized with port(s): 8091 (http)
+2019-02-02 12:33:54,422 INFO org.apache.juli.logging.DirectJDKLog [main] Initializing ProtocolHandler ["http-nio-8091"]
+2019-02-02 12:33:54,469 INFO org.apache.juli.logging.DirectJDKLog [main] Starting service [Tomcat]
+2019-02-02 12:33:54,469 INFO org.apache.juli.logging.DirectJDKLog [main] Starting Servlet engine: [Apache Tomcat/9.0.14]
+2019-02-02 12:33:54,484 INFO org.apache.juli.logging.DirectJDKLog [main] The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [C:\Program Files\Java\jre1.8.0_181\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:/Program Files/Java/jre1.8.0_181/bin/server;C:/Program Files/Java/jre1.8.0_181/bin;C:/Program Files/Java/jre1.8.0_181/lib/amd64;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Program Files\Broadcom\Broadcom 802.11 Network Adapter;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;c:\Program Files (x86)\ATI Technologies\ATI.ACE\Core-Static;C:\Program Files (x86)\Skype\Phone\;JAVA_HOME;JRE_HOME;C:\WINDOWS\System32\OpenSSH\;E:\jaichu\Jaisudha\SOftware\Git\cmd;C:\Users\AnuRamani\AppData\Local\Microsoft\WindowsApps;;E:\Software\eclipse-jee-2018-09-win32-x86_64\eclipse;;.]
+2019-02-02 12:33:54,672 INFO org.apache.juli.logging.DirectJDKLog [main] Initializing Spring embedded WebApplicationContext
+2019-02-02 12:33:54,672 INFO org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext [main] Root WebApplicationContext: initialization completed in 2001 ms
+2019-02-02 12:33:54,956 WARN org.springframework.context.support.AbstractApplicationContext [main] Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'requestMappingHandlerAdapter' defined in class path resource [org/springframework/boot/autoconfigure/web/servlet/WebMvcAutoConfiguration$EnableWebMvcConfiguration.class]: Bean instantiation via factory method failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter]: Factory method 'requestMappingHandlerAdapter' threw exception; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'mvcContentNegotiationManager' defined in class path resource [org/springframework/boot/autoconfigure/web/servlet/WebMvcAutoConfiguration$EnableWebMvcConfiguration.class]: Bean instantiation via factory method failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [org.springframework.web.accept.ContentNegotiationManager]: Factory method 'mvcContentNegotiationManager' threw exception; nested exception is java.lang.NoSuchMethodError: org.springframework.web.accept.ContentNegotiationManagerFactoryBean.build()Lorg/springframework/web/accept/ContentNegotiationManager;
+2019-02-02 12:33:54,956 INFO org.apache.juli.logging.DirectJDKLog [main] Stopping service [Tomcat]
+2019-02-02 12:33:54,987 INFO org.springframework.boot.autoconfigure.logging.ConditionEvaluationReportLoggingListener [main] 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2019-02-02 12:33:55,003 ERROR org.springframework.boot.diagnostics.LoggingFailureAnalysisReporter [main] 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+An attempt was made to call the method org.springframework.web.accept.ContentNegotiationManagerFactoryBean.build()Lorg/springframework/web/accept/ContentNegotiationManager; but it does not exist. Its class, org.springframework.web.accept.ContentNegotiationManagerFactoryBean, is available from the following locations:
+
+    jar:file:/C:/Users/AnuRamani/.m2/repository/org/springframework/spring-web/4.3.14.RELEASE/spring-web-4.3.14.RELEASE.jar!/org/springframework/web/accept/ContentNegotiationManagerFactoryBean.class
+    jar:file:/C:/Users/AnuRamani/.m2/repository/org/springframework/spring-web/5.1.4.RELEASE/spring-web-5.1.4.RELEASE.jar!/org/springframework/web/accept/ContentNegotiationManagerFactoryBean.class
+
+It was loaded from the following location:
+
+    file:/C:/Users/AnuRamani/.m2/repository/org/springframework/spring-web/4.3.14.RELEASE/spring-web-4.3.14.RELEASE.jar
+
+
+Action:
+
+Correct the classpath of your application so that it contains a single, compatible version of org.springframework.web.accept.ContentNegotiationManagerFactoryBean
+
+2019-02-02 12:35:21,388 INFO org.springframework.boot.StartupInfoLogger [main] Starting LoginApplication on LAPTOP-6GQLSS8R with PID 5788 (E:\jaichu\Jaisudha\java1.8\Eclipseworkspace\LoginApplication\target\classes started by AnuRamani in E:\jaichu\Jaisudha\java1.8\Eclipseworkspace\LoginApplication)
+2019-02-02 12:35:21,388 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to default profiles: default
+2019-02-02 12:35:23,206 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [main] Tomcat initialized with port(s): 8091 (http)
+2019-02-02 12:35:23,228 INFO org.apache.juli.logging.DirectJDKLog [main] Initializing ProtocolHandler ["http-nio-8091"]
+2019-02-02 12:35:23,259 INFO org.apache.juli.logging.DirectJDKLog [main] Starting service [Tomcat]
+2019-02-02 12:35:23,259 INFO org.apache.juli.logging.DirectJDKLog [main] Starting Servlet engine: [Apache Tomcat/9.0.14]
+2019-02-02 12:35:23,275 INFO org.apache.juli.logging.DirectJDKLog [main] The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [C:\Program Files\Java\jre1.8.0_181\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:/Program Files/Java/jre1.8.0_181/bin/server;C:/Program Files/Java/jre1.8.0_181/bin;C:/Program Files/Java/jre1.8.0_181/lib/amd64;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Program Files\Broadcom\Broadcom 802.11 Network Adapter;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;c:\Program Files (x86)\ATI Technologies\ATI.ACE\Core-Static;C:\Program Files (x86)\Skype\Phone\;JAVA_HOME;JRE_HOME;C:\WINDOWS\System32\OpenSSH\;E:\jaichu\Jaisudha\SOftware\Git\cmd;C:\Users\AnuRamani\AppData\Local\Microsoft\WindowsApps;;E:\Software\eclipse-jee-2018-09-win32-x86_64\eclipse;;.]
+2019-02-02 12:35:23,488 INFO org.apache.juli.logging.DirectJDKLog [main] Initializing Spring embedded WebApplicationContext
+2019-02-02 12:35:23,503 INFO org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext [main] Root WebApplicationContext: initialization completed in 2037 ms
+2019-02-02 12:35:23,792 WARN org.springframework.context.support.AbstractApplicationContext [main] Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'requestMappingHandlerAdapter' defined in class path resource [org/springframework/boot/autoconfigure/web/servlet/WebMvcAutoConfiguration$EnableWebMvcConfiguration.class]: Bean instantiation via factory method failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter]: Factory method 'requestMappingHandlerAdapter' threw exception; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'mvcContentNegotiationManager' defined in class path resource [org/springframework/boot/autoconfigure/web/servlet/WebMvcAutoConfiguration$EnableWebMvcConfiguration.class]: Bean instantiation via factory method failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [org.springframework.web.accept.ContentNegotiationManager]: Factory method 'mvcContentNegotiationManager' threw exception; nested exception is java.lang.NoSuchMethodError: org.springframework.web.accept.ContentNegotiationManagerFactoryBean.build()Lorg/springframework/web/accept/ContentNegotiationManager;
+2019-02-02 12:35:23,808 INFO org.apache.juli.logging.DirectJDKLog [main] Stopping service [Tomcat]
+2019-02-02 12:35:23,843 INFO org.springframework.boot.autoconfigure.logging.ConditionEvaluationReportLoggingListener [main] 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2019-02-02 12:35:23,843 ERROR org.springframework.boot.diagnostics.LoggingFailureAnalysisReporter [main] 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+An attempt was made to call the method org.springframework.web.accept.ContentNegotiationManagerFactoryBean.build()Lorg/springframework/web/accept/ContentNegotiationManager; but it does not exist. Its class, org.springframework.web.accept.ContentNegotiationManagerFactoryBean, is available from the following locations:
+
+    jar:file:/C:/Users/AnuRamani/.m2/repository/org/springframework/spring-web/4.3.14.RELEASE/spring-web-4.3.14.RELEASE.jar!/org/springframework/web/accept/ContentNegotiationManagerFactoryBean.class
+    jar:file:/C:/Users/AnuRamani/.m2/repository/org/springframework/spring-web/5.1.4.RELEASE/spring-web-5.1.4.RELEASE.jar!/org/springframework/web/accept/ContentNegotiationManagerFactoryBean.class
+
+It was loaded from the following location:
+
+    file:/C:/Users/AnuRamani/.m2/repository/org/springframework/spring-web/4.3.14.RELEASE/spring-web-4.3.14.RELEASE.jar
+
+
+Action:
+
+Correct the classpath of your application so that it contains a single, compatible version of org.springframework.web.accept.ContentNegotiationManagerFactoryBean
+
